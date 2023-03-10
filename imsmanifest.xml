@@ -1,0 +1,81 @@
+<?xml version="1.0" ?>
+<manifest identifier="P8IB0bzeZXF7_JtDRMPY863ftFiqPuOZOZ7GR6nb" version="1"
+  xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2"
+  xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd
+                      http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>1.2</schemaversion>
+    <adlcp:location>metadata.xml</adlcp:location>
+  </metadata>
+  <organizations default="articulate_rise">
+      <organization identifier="articulate_rise">
+      <title>Introduction to Course Construction</title>
+      <item identifier="i1" identifierref="r1" isvisible="true">
+        <title>Introduction to Course Construction</title>
+        <adlcp:datafromlms>eyJjcHYiOiJPWjdHUjZuYiIsInJsZCI6ZmFsc2V9</adlcp:datafromlms>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="r1" type="webcontent" adlcp:scormtype="sco" href="scormdriver/indexAPI.html">
+      <!-- SCORMDRIVER STUFF -->
+      <file href="scormdriver/indexAPI.html" />
+      <file href="scormdriver/preloadIntegrity.js" />
+      <file href="scormdriver/driverOptions.js" />
+      <file href="scormdriver/AICCComm.html" />
+      <file href="scormdriver/auto-scripts/AutoBookmark.js" />
+      <file href="scormdriver/auto-scripts/AutoCompleteSCO.js" />
+      <file href="scormdriver/auto-scripts/CourseExit.js" />
+      <file href="scormdriver/blank.html" />
+      <file href="scormdriver/goodbye.html" />
+      <file href="scormdriver/scormdriver.js" />
+      <file href="scormdriver/browsersniff.js" />
+
+      <!-- RUNTIME COMMON STUFF -->
+      <file href="scormcontent/index.html" />
+      <file href="scormcontent/lib/main.bundle.js"/>
+
+      
+        <file href="scormcontent/lib/fonts/icomoon.ttf"/>
+        <file href="scormcontent/lib/fonts/icomoon.woff"/>
+
+        <file href="scormcontent/lib/icomoon.css"/>
+        <file href="scormcontent/lib/main.bundle.css"/>
+        <file href="scormcontent/lib/player-0.0.11.min.js"/>
+        <file href="scormcontent/lib/lzwcompress.js"/>
+      
+
+      <!-- RUNTIME CONTENT STUFF -->
+      <file href="scormcontent/lib/fonts/Lato-Black.woff" />
+<file href="scormcontent/lib/fonts/Lato-Italic.woff" />
+<file href="scormcontent/lib/fonts/Lato-Bold.woff" />
+<file href="scormcontent/lib/fonts/Lato-Regular.woff" />
+<file href="scormcontent/lib/fonts/Lato-Light.woff" />
+<file href="scormcontent/lib/fonts/Merriweather-Black.woff" />
+<file href="scormcontent/lib/fonts/Merriweather-Italic.woff" />
+<file href="scormcontent/lib/fonts/Merriweather-Bold.woff" />
+<file href="scormcontent/lib/fonts/Merriweather-Regular.woff" />
+<file href="scormcontent/lib/fonts/Merriweather-Light.woff" />
+<file href="scormcontent/assets/Sy3TaSUWkiNmGJVp_small.png" />
+<file href="scormcontent/assets/56dApNiGbUAInJEp_DQi6QAjRGOnwMIAm.jpg" />
+<file href="scormcontent/assets/h-yB3bMMrY4Ffbwe_iePAgVP_ulQCv8wQ.jpg" />
+<file href="scormcontent/assets/UFH7EqAmCDDvjDh8__PF71ITkEkDmJaEs.jpg" />
+<file href="scormcontent/assets/dyswQy6QiYKebeA0_mReYI7RKYRGfMQ_4.jpg" />
+<file href="scormcontent/assets/ZHaqZDauIKjfigcC_A-VJlf-5N4t4rZuy.jpg" />
+<file href="scormcontent/assets/osSbXUs0jKE9u306_9I4pNy722LxBcJBQ.jpg" />
+<file href="scormcontent/assets/6TmB0gmye9scRyFd_RA7xqXgFdH1R-Ph6.jpg" />
+<file href="scormcontent/assets/I0oiLDnRajiwuAO6_mountains.jpg" />
+<file href="scormcontent/assets/2zYnFwo0UWZqLEIr_HAgZP_gmMqTjE1Ec.jpg" />
+<file href="scormcontent/assets/YkaCkRWQOfTjne3K_AlUTE6gB1jeyGy_b.jpg" />
+<file href="scormcontent/assets/21SnFnolVd9FjEoD_quote_background.jpg" />
+<file href="scormcontent/assets/JnknGhO5hVwq5jtk_H7bzyEidMUrEoV2c.jpg" />
+<file href="scormcontent/assets/pUoxB4Nu3UDTFINr_I8hi2pYI-UHLn49E.jpg" />
+<file href="scormcontent/assets/OHMUpZYbB5oJwEmD_19_misc.jpg" />
+<file href="scormcontent/assets/c03kyeEmbt1E75fw_example-header-image.jpg" />
+
+    </resource>
+  </resources>
+</manifest>
